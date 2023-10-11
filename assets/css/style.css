@@ -120,22 +120,67 @@ a:hover {
     text-align: right;
     margin-right:150px;
 }
+/* section contact */
+.Contact{
+    display: flex;
+    justify-content: center;
+}
+.champ {
+    border:none;
+    border-bottom: 2px solid white; 
+    background-color: transparent; 
+    width: 800px;
+    margin-bottom: 50px;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    line-height: normal;
+} 
+.champ::placeholder{
+    color: white; 
+}
+.div-form input[type="submit"] {
+    background-color: #ffffff; 
+    color: #000000; 
+    padding: 10px 20px; 
+    font-size: 16px;
+    font-weight: bold; 
+    font-family: Arial, sans-serif; 
+    border: none; 
+
+    /* margin-left:45%; */
+    margin-top: 30px;
+    height: 60px;
+    width: 190px;
+}
 /* section testimonials */
-/* .div-testimonials{
+.left-testimonials-top{
+    display:flex;
+    background-color: #2b2929;
+    margin-right: 50px;
+    
+}
+.left-testimonials-bottom{
+    display:flex;
+    background-color: #2b2929;
+    margin-right: 50px;
+    margin-top:50px;
+}
+.right-testimonials{
+    width: 30%;
+    background-color: #2b2929;
+}
+.sec-testimonials{
     display: flex;
+    margin-top:100px;
+    margin-left: 150px;
+    margin-right: 150px;
 }
-.testimonials-top,.testimonials-bottom{
-    background-color:   #353331;
-    flex-direction:column ;
-}
-.testimonials-right{
-    flex-direction: row;
-    background-color:   #353331;
-}
-.testimonials-bottom{
+.text-testimonials{
     display: flex;
-    margin-top: 400px;
-    flex-direction: row-reverse;
+    flex-direction: column  ;
+    justify-content: center;
+
 }
 .testimonials-button{
     background-color: #000000; 
@@ -144,84 +189,15 @@ a:hover {
     font-size: 16px;
     font-weight: bold; 
     font-family: Arial, sans-serif; 
-    border: none; 
-    margin-left: 45%;
-    border:solid 1px white;
+    border: 2px solid white; 
+    /* display: flex;
+    justify-content: center; */
+    margin-left:45%;
+    margin-top: 50px;
+    height: 60px;
+    width: 190px;
 }
 .testimonials-button:hover {
     background-color: #FFA500;
     cursor: pointer;
-} */
-/* section contact */
-.champ {
-    border:none;
-    border-bottom: 2px solid white; 
-    background-color: transparent; 
-}
-.champ::placeholder{
-    color: white; 
-}
-/* section testimonials */
-.sec-testimonials{
-    border: 1px solid white;
-    width:1119px;
-    height: 636px;
-    margin-left: 193px;
-    margin-top: 103px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-.right-testimonials{
-    border: 1px solid white;
-    width: 757px;
-    height: 636px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-.left-testimonials{
-    border: 1px solid white;
-    width: 309px;
-    height: 636px;
-}
-.right-testimonials-top{
-    border: 1px solid white;
-    width: 757px;
-    height: 309px;
-    display: flex;
-    justify-content: row;
-}
-.right-testimonials-top div h1{
-    color: #FFF;
-    font-family: Inter;
-    font-size: 44px;
-    font-style: normal;
-    font-weight: 600;
-    margin-left: 15px;
-    margin-top: 10px;
-}
-.right-testimonials-top div .p1{
-    color: #FFF;
-    font-family: Inter;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 300;
-    line-height: normal;
-    margin-left: 15px;
-}
-.right-testimonials-top div .p2{
-    color: #FFF;
-    font-family: Inter;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    margin-left: 15px;
- 
-}
-.right-testimonials-bottom{
-    border: 1px solid white;
-    width: 757px;
-    height: 309px;
 }
