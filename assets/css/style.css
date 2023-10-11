@@ -2,6 +2,7 @@ body {
     background-color: black;
     color: white; 
 }
+
 ul {
     list-style-type: none;
     background-color: #000000;
@@ -66,17 +67,21 @@ a:hover {
     margin-top: 0px;
 }
 .middle-content button{
-     background-color: #ffffff; 
-     color: #000000; 
-     padding: 10px 20px; 
-     font-size: 16px;
-     font-weight: bold; 
-     font-family: Arial, sans-serif; 
-     border: none; 
-    margin-left: ;
+    background-color: #ffffff; 
+    color: #000000; 
+    padding: 10px 20px; 
+    font-size: 16px;
+    font-weight: bold; 
+    font-family: Arial, sans-serif; 
+    border: none; 
 }
 .middle-content button:hover {
     background-color: #FFA500;
+    cursor: pointer;
+}
+.portfolio-title,.about-title ,.contact-title{
+    text-align: center; 
+    font-size: 70px;
 }
 /* section portfolio */
 .portfolio {
@@ -84,10 +89,7 @@ a:hover {
     justify-content: center; /* Centre horizontalement le contenu */
     align-items: center; /* Centre verticalement le contenu */
 }
-.portfolio-title,.about-title {
-    text-align: center; 
-    font-size: 70px;
-}
+
 .left-imgs, .right-imgs {
     display: flex;
     flex-direction: column; /* Empile les images verticalement */
@@ -97,9 +99,7 @@ a:hover {
 .left-imgs img, .right-imgs img {
     margin: 30px; 
 }
-
 /* section about */
-
 .about{
     display: flex;
     flex-direction: row; /* Par défaut, Flexbox aligne les éléments horizontalement */
@@ -113,8 +113,115 @@ a:hover {
 .left-about{
     text-align: left;
     margin-left:50px;
+    font-size: 30px;
+    line-height: 60px;
 }
 .right-about{
     text-align: right;
     margin-right:150px;
+}
+/* section testimonials */
+/* .div-testimonials{
+    display: flex;
+}
+.testimonials-top,.testimonials-bottom{
+    background-color:   #353331;
+    flex-direction:column ;
+}
+.testimonials-right{
+    flex-direction: row;
+    background-color:   #353331;
+}
+.testimonials-bottom{
+    display: flex;
+    margin-top: 400px;
+    flex-direction: row-reverse;
+}
+.testimonials-button{
+    background-color: #000000; 
+    color: #ffffff; 
+    padding: 10px 20px; 
+    font-size: 16px;
+    font-weight: bold; 
+    font-family: Arial, sans-serif; 
+    border: none; 
+    margin-left: 45%;
+    border:solid 1px white;
+}
+.testimonials-button:hover {
+    background-color: #FFA500;
+    cursor: pointer;
+} */
+/* section contact */
+.champ {
+    border:none;
+    border-bottom: 2px solid white; 
+    background-color: transparent; 
+}
+.champ::placeholder{
+    color: white; 
+}
+/* section testimonials */
+.sec-testimonials{
+    border: 1px solid white;
+    width:1119px;
+    height: 636px;
+    margin-left: 193px;
+    margin-top: 103px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.right-testimonials{
+    border: 1px solid white;
+    width: 757px;
+    height: 636px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.left-testimonials{
+    border: 1px solid white;
+    width: 309px;
+    height: 636px;
+}
+.right-testimonials-top{
+    border: 1px solid white;
+    width: 757px;
+    height: 309px;
+    display: flex;
+    justify-content: row;
+}
+.right-testimonials-top div h1{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 600;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.right-testimonials-top div .p1{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-left: 15px;
+}
+.right-testimonials-top div .p2{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 15px;
+ 
+}
+.right-testimonials-bottom{
+    border: 1px solid white;
+    width: 757px;
+    height: 309px;
 }
