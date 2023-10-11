@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Playfair+Display&display=swap');
+
 body {
     background-color: black;
     color: white; 
+    /* margin: auto 10%; */
 }
 
 ul {
@@ -29,16 +32,11 @@ a:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-  
+    position: relative;
+    flex-direction: column;
+    padding-bottom: 350px;
 }
-.left-content {
-    flex: 1;
-    padding-right: 20px;
-    width:200px;
-}
-.left-content p{
-    margin-left:100px;
-}
+ 
 
 
 .right-content {
@@ -63,10 +61,18 @@ a:hover {
     text-align: center;
 }
 .middle-content h1{
-    font-size:200px ;
-    margin-top: 0px;
+    font-size: 200px;
+  margin-top: 0px;
+  line-height: 127px;
+  z-index: 2;
+  margin-right: 136px;
 }
-.middle-content button{
+
+.middle-content h1 span {
+        margin-left: 213px;
+        font-size: 188px;
+}
+.section1 button{
     background-color: #ffffff; 
     color: #000000; 
     padding: 10px 20px; 
@@ -74,14 +80,18 @@ a:hover {
     font-weight: bold; 
     font-family: Arial, sans-serif; 
     border: none; 
+    margin-left: 214px;
+  margin-top: -100px;
 }
-.middle-content button:hover {
+.section1 button:hover {
     background-color: #FFA500;
     cursor: pointer;
 }
 .portfolio-title,.about-title ,.contact-title{
     text-align: center; 
     font-size: 70px;
+    font-family: 'Playfair Display', serif;
+
 }
 /* section portfolio */
 .portfolio {
@@ -201,3 +211,29 @@ a:hover {
     background-color: #FFA500;
     cursor: pointer;
 }
+.paragraph-testimonials{
+    margin-left:20%;
+    margin-right:20%;
+}
+
+.section1 img:nth-child(3){
+    position: absolute;
+  right: -46px;
+  width: 35%;
+  top: 21px;
+}
+
+
+.section1 img:nth-child(2){
+    position: absolute;
+    left: 29px;
+    width: 40%;
+    top: 253px;
+    z-index: -1;
+}
+.left-content p{
+    padding-right: 46%;
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+
