@@ -1,0 +1,10 @@
+1-Phase de Préparation: Identifiez clairement ce que le site web doit accomplir,
+durée: 1 heure .
+2-Phase de Conception :Créez des maquettes de la disposition et du design du site web,
+durée: 1 jour.
+3-Phase de Développement :Concevez et développez l'interface utilisateur du site web puis ajoutez le contenu (textes, images, vidéos) sur le site,
+durée: 3 jours .
+4-Phase de Tests et Révisions : Soumettez le site à des tests d'acceptation pour s'assurer qu'il correspond aux spécifications initiales puis corriger les erreurs et apportez les modifications necessaires,
+durée: 1 jour.
+5-Phase de Lancement : Hébergez le site web sur GitHub Pages.
+durée: 1 heure.
