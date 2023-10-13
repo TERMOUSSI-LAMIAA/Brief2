@@ -143,6 +143,8 @@ li a:hover {
   font-weight: 400;
 }
 .champ {
+  color: #fff;
+  outline: none;
   border: none;
   border-bottom: 2px solid white;
   background-color: transparent;
